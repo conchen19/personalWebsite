@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="profilePage2.css" rel="stylesheet">
+
+    </head>
+    <body style="background-color: lavenderblush">
+            <div id="mySidenav" class="sidenav">
+                    <li> <a href="portfolio.html" class="button" > Home </a></li>
+                    <li> <a href="portfolio2.html" class="button" > About Me </a></li>
+                    <li> <a href="portfolio3.html" class="button"> Interests </a></li>
+                    <li> <a href="portfolio4.html" class="button"> Contact Me </a></li>
+                 </div>
+                 
+                 <div id="main"> 
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Navigation </span>
+                 </div>
+                 
+                 <script>
+                 function openNav() {
+                   document.getElementById("mySidenav").style.width = "250px";
+                   document.getElementById("main").style.marginLeft = "250px";
+                 }
+                 
+                 function closeNav() {
+                   document.getElementById("mySidenav").style.width = "0";
+                   document.getElementById("main").style.marginLeft= "0";
+                 }
+                 </script>
+        <div id="aboutMe" >
+            <h2 style="color: darkblue; font-family: fantasy; font-size: 60px"> About Me </h2>
+            <p style="font-family: fantasy; font-size: 36px; text-align: center;"> My name is Connie Chen. I am 17 years old and I am from Brooklyn, New York. <br> I live with my parents, my elder sister Sabrina, and my younger brother Justin. <br> I am currently a rising senior at Poly Prep Country Day School. <br> I am also a Prep For Prep alumnus (Contingent XXXV).</p>
+
+        </div>
+        <div id="aboutMePictures">
+            <img src="aboutMePic1.jpg" style="width: 15%;height: 15%; margin: 20px">
+            <img src="aboutMePic2.jpg" style="width: 21.5%;height: 21.5%; margin: 20px">
+            <img src="aboutMePic3.jpg" style="width: 30%;height: 30%; margin: 20px">
+            <img src="aboutMePic4.png" style="width: 20%;height: 20%; margin: 20px">
+        </div>
+
+
+    </body>
+
+</html>

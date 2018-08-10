@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="profilePage3.css" rel="stylesheet">
+    </head>
+
+    <body style="background-color: lavenderblush">
+            <div id="mySidenav" class="sidenav">
+                    <li> <a href="portfolio.html" class="button" > Home </a></li>
+                    <li> <a href="portfolio2.html" class="button" > About Me </a></li>
+                    <li> <a href="portfolio3.html" class="button"> Interests </a></li>
+                    <li> <a href="portfolio4.html" class="button"> Contact Me </a></li>
+                 </div>
+                 
+                 <div id="main"> 
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Navigation </span>
+                 </div>
+                 
+                 <script>
+                 function openNav() {
+                   document.getElementById("mySidenav").style.width = "250px";
+                   document.getElementById("main").style.marginLeft = "250px";
+                 }
+                 
+                 function closeNav() {
+                   document.getElementById("mySidenav").style.width = "0";
+                   document.getElementById("main").style.marginLeft= "0";
+                 }
+                 </script>
+        <div id="interests">
+            <h2 style="color: darkblue;font-family: fantasy;font-size: 60px; text-align: center;"> Interests </h2>
+            <p style="font-family: fantasy; font-size: 36px; color: mediumblue; text-align: center">  My interests include baking, gaming, and doing jigsaw puzzles. While I do not watch <br> TV a often, my favorite show is House MD; I am, however, a big anime fan. My favorite <br> one is "One Piece. My favorite genre of music is EDM, though I do listen to a little big of everything. <br> On the academic side, my favorite subject is science, specifically biology and chemistry. I also <br> like to travel; I hope to go to visit every continent (maybe not Antarctica). In the future, I hope to <br> be an orthopedic surgeon or work in cybersecurity.</p>
+            <div id="interestPictures">
+                <img src="css2.1.jpg" style="width: 40%; height: 40%; margin: 10px">
+                <img src="css2.2.jpg" style="width: 23.5%; height: 23.5%; margin: 10px">
+                <img src="css2.3.jpg" style="width: 21%; height: 21%; margin: 10px">
+                <img src="css2.4.jpg" style="width: 23%; height: 23%; margin: 10px">
+                <img src="css2.5.jpg" style="width: 19.8%; height: 19.8%; margin: 10px"> 
+                <img src="house.jpg" style="width: 22%; height: 22%; margin: 10px">
+                <img src="surgeon.png" style="width: 21%; height: 21%; margin: 10px">
+            </div>
+        </div>
+
+    </body>
+</html>

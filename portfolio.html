@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <link href="profilePage.css" rel="stylesheet">
+    <script src="profile.js"> </script>
+
+</head>
+    <body style="background-color: lavenderblush"> 
+            <div id="mySidenav" class="sidenav">
+                    <li> <a href="portfolio.html" class="button" > Home </a></li> 
+                    <li> <a href="portfolio2.html" class="button" > About Me </a></li>
+                    <li> <a href="portfolio3.html" class="button"> Interests </a></li> 
+                    <li> <a href="portfolio4.html" class="button"> Contact Me </a></li> 
+                 </div>
+                 
+                 <div id="main"> 
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Navigation </span>
+                 </div>
+                 
+                 <script>
+                 function openNav() {
+                   document.getElementById("mySidenav").style.width = "250px";
+                   document.getElementById("main").style.marginLeft = "250px";
+                 }
+                 
+                 function closeNav() {
+                   document.getElementById("mySidenav").style.width = "0";
+                   document.getElementById("main").style.marginLeft= "0";
+                 }
+                 </script>
+        <div id="welcome"> 
+            <marquee>
+                Welcome
+            </marquee>
+        </div>
+        <div id="welcomePage">
+            <h1> Connie Chen </h1> 
+        </div>
+        <div id="profilePic"> 
+            <img id="profilePicture" onclick="change()" src="pic1.jpg" class="center" style="width: 18%; height: 15%">
+            <div id="imageClick">
+                <p> Click to switch images </p>
+            </div>
+        </div>
+        <div id="audio">
+            <audio controls autoplay loop="true">
+                <source src="ben.mp3" type="audio/mpeg">
+            </audio>
+
+        </div>
+        
+    </body>
+</html>
