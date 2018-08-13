@@ -5,7 +5,7 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: rgb(99, 100, 192); /* Black*/
+    background-color: rgb(121, 160, 173); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -13,17 +13,17 @@
 
 /* The navigation menu links */
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 10px 10px 10px 24px;
     text-decoration: none;
-    font-size: 25px;
-    color: #b8b8b8;
+    font-size: 18px;
+    color: darkslategray;
     display: block;
-    transition: 0.3s;
+    transition: 1.0s;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-    color: #e2b3f8;
+    color: white;
 }
 
 /* Position and style the close button (top right corner) */
@@ -38,7 +38,7 @@
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
     transition: margin-left .5s;
-    padding: 20px;
+    padding: 30px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -49,7 +49,7 @@
 
 #sidenav {
     font-size: 24px;
-    color: mediumblue;
+    color: darkslategray;
     font-family: fantasy;
     font-weight: bold;
 }
@@ -58,10 +58,10 @@
     display: block;
     width: 100px;
     height: 25px;
-    background: pink;
+    background: lightgray;
     padding: 10px;
     text-align: center;
-    color: mediumblue;
+    color: silver;
     font-weight: bold;
 }
 
